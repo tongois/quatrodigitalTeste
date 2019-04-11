@@ -1,0 +1,406 @@
+/*HEADER*/
+.header{
+	background-color: rgb(51,51,51);
+	padding-top: 5px;
+}
+
+.header span ,a{
+	color:white;
+}
+.options{
+	-ms-display: flex;
+	-ms-align-items: center;
+	-ms-justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.options button{
+	color: white;
+	background-color:rgb(51,51,51);
+	border: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+
+.options button:hover{
+	background-color:rgb(51,51,51);
+	color: gray;
+}
+
+.marca{
+	display: inline-block;
+	margin-left: 30px;
+}
+.marca img{
+	width: 250px;
+}
+
+.pesquisa {
+	display: flex;
+	-ms-display: flex;
+}
+
+.pesquisa li{
+	display: inline-block;
+	list-style: none;
+	
+}
+
+.pesquisa input{
+	background-color: rgb(51,51,51);
+	border-color: #404040;
+	border-bottom-color: #a6a6a6;
+	border-bottom-width: medium;
+	
+}
+
+li .icone-carrinho{
+	color: #ff4d4d;
+
+}
+/*-------------------------------------------------------------------------*/
+/*GALERIA*/
+
+.galeria img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 25px;
+}
+
+/*--------------------------------------------------------------------------*/
+/*ITEMS VENDA*/
+
+/*Item sozinho*/
+.item{
+	padding: 20px;
+}
+
+.items{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.items .titulo-items{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2.2em;
+	font-weight: 800;
+}
+
+.items img{
+	width: 100%;
+	position: relative;
+}
+
+.items .novo, .frete,.oferta{
+	position: absolute;
+}
+
+.items .novo{
+	top: 0px;
+	background-color: black;
+	color: white;
+	padding: 4px;
+}
+
+.items .frete{
+	top: 0px;
+	right: 0;
+	background-color: #1aa3ff;
+	color: white;
+	padding: 4px;
+}
+.items .oferta{
+	top: 28px;
+	right: 0;
+	background-color:#ff1a75;
+	color: white;
+	padding: 4px;
+}
+
+.items figcaption{
+	font-size: 1.3em;
+	text-align: center;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.items .preco{
+	text-align: center;
+	margin-top: 20px;
+	line-height: 10px;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+.items .preco span{
+	color: #ff4d4d;
+}
+.items .preco p:first-child{
+	color: gray;
+}
+
+.btn-comprar{
+	text-align: center;
+}
+.btn-comprar button{
+	text-transform: uppercase;
+	border-color: green;
+	border-width: 2px;
+	color: green;
+	font-size: 1.5em;
+	padding: 7px 20px;
+	letter-spacing: 0.1em;
+}
+
+.btn-comprar button:hover{
+	border-color: green;
+	border-width: 2px;
+	color: green;
+	text-decoration: none;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+/*NOVIDADES*/
+.novidades{
+	background-color: #cccccc;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+.titulo-novidades{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.2em;
+	font-weight: 800;
+	
+}
+
+.banner{
+	background-color: rgb(51,51,51);
+	width: 80%;
+	height: 230px;
+}
+.banner p{
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	padding-top: 110px;
+	text-transform: uppercase;
+	font-size: 1.4em;
+}
+
+.email-descricao p{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.5em;
+	
+}
+.email-input{
+	margin-top: 50px;
+}
+.email-input input{
+	background: #cccccc;
+	border-collapse: collapse;
+	border-collapse: #cccccc;
+	border-bottom-color: #404040;
+	border-width: 0.3em;
+	padding-right: 140px;
+}
+
+
+.email-input button{
+	border-collapse: collapse;
+	background-color: #404040;
+	color: white;
+	padding: 10px 60px;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	margin-left: 20px;
+	position: relative;
+	bottom: 10px;
+}
+.email-redes{
+	margin-top: 25px;
+}
+.email-redes ul{
+	position: relative;
+	right: 40px;
+}
+.email-redes ul li:nth-child(2),li:nth-child(3){
+	margin-left: 40px;
+}
+.email-redes ul li{
+	display: inline-block;
+	text-decoration: none;
+}
+
+.email-redes ul li i{
+	font-size: 3em;
+
+}
+
+/*-------------------------------------------------------------------------------*/
+/*FOOTER*/
+footer{
+	background-color:rgb(51,51,51);
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+footer h4{
+	color:white;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 1.1em;
+}
+
+footer ul li{
+	list-style: none;
+	line-height: 1.7em;
+}
+
+footer .quem-somos li:nth-child(3){
+	margin-left: 0px;
+}
+
+footer .atendimento li:first-child{
+	font-size: 1.7em;
+	line-height: 1.2em;
+}
+
+footer .atendimento li{
+	text-align: right;
+	
+}
+footer .atendimento h4{
+	text-align: right;
+}
+
+.marca-footer img{
+	width: 50%;
+}
+.marca-footer{
+	text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------*/
+/*FORMAS DE PAGAMENTO*/
+.pagamento p{
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.formas-pagamento{
+	background-color: #d9d9d9;
+	padding-bottom: 5px;
+}
+.formas-pagamento h3{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+/*INFO DEV*/
+.info-dev{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.info-dev p{
+	line-height: 0.6em;
+	color: #b3b3b3;
+}
+
+.info-dev img{
+	margin-left: 10px;
+	float: right;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+/*MOBILE*/
+@media only screen and (max-width: 600px){
+/*	HEADER*/
+	.options img{
+		max-height: 30px;
+		max-width: 90px;
+		padding:0 0px;
+	}
+	.options li{
+		display: flex;
+		align-content: flex-start;
+	}
+	nav .drop-item li:nth-child(1){
+		margin-left: -20px;
+	}
+	nav .drop-item li:nth-child(3){
+		margin-left: px;
+	}
+	.pesquisa li:first-child{
+		margin-left: -40px;
+	}
+	
+		
+	/*	NOVIDADES*/
+	.banner{
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.novidades form button{
+		font-size: 14px;
+		padding: 10px 30px;
+	}
+	.email-redes{
+		text-align: center;
+		margin-left: 25px;
+		margin-top: 40px;
+	}
+	
+	/*	FOOTER*/
+	footer{
+		height: 270px;
+		
+	}
+	.quem-somos{
+		font-size: 10px;
+	}
+	.quem-somos li:nth-child(3){
+		margin-left: 0px;
+	}
+	.marca-footer{
+		margin-top: 0px;
+	}
+	.atendimento{
+		float: right;
+		bottom: 210px;
+		font-size: 10px;
+	}
+	
+	/*	INFO-DEV*/
+	.info-dev p{
+		font-size: 12px;
+		line-height: 1.5em;
+	}
+
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

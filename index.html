@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Bootstrap Teste</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+</head>
+	<body>
+
+		<!--	HEADER-->
+		<div class="container-fluid header">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-xs-6">
+						<span>Ola, Bem vindo!</span>
+					</div>
+					<div class="col-sm-6 col-xs-6 text-right">
+						<span>
+						<a>Meus pedidos</a>
+						<a>Atendimento</a>
+						</span>
+					</div>
+				</div>
+
+				<nav class="navbar options" >
+					<ul class="nav navbar-nav options drop-item">
+						<li class="dropdown">
+							 <button class="btn btn-default dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						Drop
+						<span class="caret"></span>
+					  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="position: absolute;background-color: gray;">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+						  </ul>
+						</li>
+						<li class="dropdown">
+							 <button class="btn btn-default dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						Drop
+						<span class="caret"></span>
+					  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="position: absolute; background-color: gray;">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+						  </ul>
+						</li>
+						<li class="dropdown">
+							 <button class="btn btn-default dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						Drop
+						<span class="caret"></span>
+					  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="position: absolute;background-color: gray;">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+						  </ul>
+						</li>
+						<li class="dropdown">
+							 <button class="btn btn-default dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						Drop
+						<span class="caret"></span>
+					  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="position: absolute;background-color: gray;">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+						  </ul>
+						</li>
+						<li class="dropdown">
+							 <button class="btn btn-default dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						Drop
+						<span class="caret"></span>
+					  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="position: absolute;background-color: gray;">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+						  </ul>
+						</li>
+						<li class="marca">
+							<img src="img/marca.png">
+						</li>
+					</ul>
+						<ul class="pesquisa">
+						<li>
+							<div class="input-group">
+							  <input type="text" class="form-control" placeholder="Estou procurando por...">
+							  <span class="input-group-btn">
+								<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+							  </span>
+							</div>
+						</li>
+						<li class="carrinho">
+							<span class="glyphicon glyphicon-shopping-cart icone-carrinho" aria-hidden="true"></span>
+							<span class="texto-carrinho">(99)<br>
+							R$ 99.999,00</span>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<!--	GALERIA-->
+		<div class="container galeria">
+			<div class="row">
+				<div class="col-md-12">
+					<img src="img/4.jpg">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<img src="img/rodas.png">
+				</div>
+				<div class="col-md-6">
+					<img src="img/banners_vitrine.png" >
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="img/Camada_4.png" >
+				</div>
+				<div class="col-md-4">
+					<img src="img/banners_carro.png" >
+				</div>
+				<div class="col-md-4">
+					<img src="img/rodas.png" >
+				</div>
+			</div>
+		</div>
+
+		<!--	PRODUTOS-->
+		<div class="container items">
+			<div class="row">
+				<p class="titulo-items">Mais desejados</p>
+				<div class="col-sm-3 col-xs-6 item">
+					<img src="img/item.jpg">
+						<div class="novo">
+							<span class="glyphicon glyphicon-star"></span>Novo
+						</div>
+							<div class="frete"><span class="glyphicon glyphicon-ok-circle"></span>Frete grátis
+							</div>
+								<div class="oferta"><span class="glyphicon glyphicon-asterisk"></span>Oferta
+								</div>
+									<figcaption>Texto com descrição do item  ofertado no site
+									</figcaption>
+										<div class="preco">
+											<p>R$ 280,00 <span>R$190,00</span></p>
+											<p>12X de R$66,00</p>
+										</div>
+											<div class="btn-comprar">
+												<button class="btn btn-link"><span class="glyphicon glyphicon-shopping-cart"></span>comprar</button>
+											</div>
+				</div>
+				<div class="col-sm-3 col-xs-6 item">
+					<img src="img/item.jpg">
+						<div class="novo">
+							<span class="glyphicon glyphicon-star"></span>Novo
+						</div>
+							<div class="frete"><span class="glyphicon glyphicon-ok-circle"></span>Frete grátis
+							</div>
+								<div class="oferta"><span class="glyphicon glyphicon-asterisk"></span>Oferta
+								</div>
+									<figcaption>Texto com descrição do item  ofertado no site
+									</figcaption>
+										<div class="preco">
+											<p>R$ 280,00 <span>R$190,00</span></p>
+											<p>12X de R$66,00</p>
+										</div>
+											<div class="btn-comprar">
+												<button class="btn btn-link"><span class="glyphicon glyphicon-shopping-cart"></span>comprar</button>
+											</div>
+				</div>
+				<div class="col-sm-3 col-xs-6 item">
+					<img src="img/item.jpg">
+						<div class="novo">
+							<span class="glyphicon glyphicon-star"></span>Novo
+						</div>
+							<div class="frete"><span class="glyphicon glyphicon-ok-circle"></span>Frete grátis
+							</div>
+								<div class="oferta"><span class="glyphicon glyphicon-asterisk"></span>Oferta
+								</div>
+									<figcaption>Texto com descrição do item  ofertado no site
+									</figcaption>
+										<div class="preco">
+											<p>R$ 280,00 <span>R$190,00</span></p>
+											<p>12X de R$66,00</p>
+										</div>
+											<div class="btn-comprar">
+												<button class="btn btn-link"><span class="glyphicon glyphicon-shopping-cart"></span>comprar</button>
+											</div>
+				</div>
+				<div class="col-sm-3 col-xs-6 item">
+					<img src="img/item.jpg">
+						<div class="novo">
+							<span class="glyphicon glyphicon-star"></span>Novo
+						</div>
+							<div class="frete"><span class="glyphicon glyphicon-ok-circle"></span>Frete grátis
+							</div>
+								<div class="oferta"><span class="glyphicon glyphicon-asterisk"></span>Oferta
+								</div>
+									<figcaption>Texto com descrição do item  ofertado no site
+									</figcaption>
+										<div class="preco">
+											<p>R$ 280,00 <span>R$190,00</span></p>
+											<p>12X de R$66,00</p>
+										</div>
+											<div class="btn-comprar">
+												<button class="btn btn-link"><span class="glyphicon glyphicon-shopping-cart"></span>comprar</button>
+											</div>
+				</div>
+			</div>
+		</div>
+
+		<!--	NOVIDADES-->
+		<div class="container-fluid novidades">
+			<div class="container">
+				<p class="titulo-novidades">Receba as Novidades</p>
+				<div class="col-sm-6 col-xs-12">
+					<div class="banner">
+						<p>Banner</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-xs-12">
+					<div class="email-descricao">
+					<p>Receba novidades e ofertas com descntos exclusivos diretamente no seu email</p>	
+					</div>
+						<form class="form-inline email-input" style="display: flex;">
+							<input type="text" class="form-control" placeholder="Digite seu email aqui">
+								<button type="submit" class="btn btn-default btn-enviar">Ok</button>
+						</form>
+					<div class="email-redes col-xs-12">
+						<ul>
+							<li><i class="fab fa-instagram fa-lg"></i></li>
+							<li><i class="fab fa-facebook-f fa-lg"></i></li>
+							<li><i class="fab fa-youtube fa-lg"></i></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--	FOOTER-->
+		<footer class="container-fluid">
+			<div class="container" style="display: flex;justify-content: space-between;">
+				<div class="row">
+					<div class="col-sm-3  col-xs-6 quem-somos">
+						<h4>Precisa de Ajuda?</h4>
+								<ul class="list-group">
+									<li><a href="#">Quem Somos</a></li>
+									<li><a href="#">Como Comprar</a></li>
+									<li><a href="#">Trocas e Devoluções</a></li>
+									<li><a href="#">Política de Entrega</a></li>
+								</ul>
+					</div>
+					<div class="col-sm-6 col-xs-12 marca-footer">
+						<div class="marca-footer">
+						<img src="img/marca.png">
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6 atendimento">
+						<h4>Atendimento</h4>
+								<ul class="list-group">
+									<li><a href="#">(11) 3054-3434</a></li>
+									<li><a href="#">sac@email.com.br</a></li>
+									<li><a href="#">De 2ªa 5ªfeira, das 9 às 18:00h</a></li>
+									<li><a href="#">Sexta-feira das 9 às 17:00h</a></li>
+								</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!--	FORMAS DE PAGAMENTO-->
+		<div class="container-fluid formas-pagamento">
+			<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="pagamento">
+						<h3>Pagamento</h3>
+						<img src="img/Layer_35.png">
+						<img src="img/Layer_36.png">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<h3>Compra 100% Segura</h3>
+						<img src="img/Layer_37.png">
+						<img src="img/img-clearsale.png">
+						<img src="img/Layer_38.png">
+						<img src="img/selo_pci-menor.png">
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<!--	INFO DEV-->
+		<div class="container info-dev">
+			<div class="row">
+				<div class="col-sm-8 col-xs-12">
+					<div>
+						<p>©2013-2015- Todos os direitos reservados. Razão Social Vestem - CNPJ 12.323.211/0001-44</p>
+						<p>Avenida Henry Ford. 1.716,  Parque da Mooca, São Paulo - SP CEP: 03109-000</p>
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-12">
+					<img src="img/powered_by_vtex.png">
+					<img src="img/quatro_design_by.png">
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
